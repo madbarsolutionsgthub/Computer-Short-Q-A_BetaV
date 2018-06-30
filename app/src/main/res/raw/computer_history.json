@@ -2,92 +2,194 @@
 	{
 		"sNo":"1",
 		"categoryId":"10",
-		"qst":"When was the first computer invented ? ",
-		"ans":"The first mechanical computer, created by Charles Babbage in 1822."
+		"qst":"Father of Computer ? ",
+		"ans":"Sir Charles Babbage. (Carburize University)"
 	},
 	{
 		"sNo":"2",
 		"categoryId":"10",
-		"qst":"When was the word 'computer' was first used ?",
-		"ans":"The word 'computer' was first recorded as being used in 1613 and originally was used to describe a human who performed calculations or computations."
+		"qst":"First Programmer ?",
+		"ans":"Ada Augusta."
 	},
 	{
 		"sNo":"3",
 		"categoryId":"10",
-		"qst":"First mechanical computer or automatic computing engine concept ?",
-		"ans":"In 1822, Charles Babbage conceptualized and began developing the Difference Engine, considered to be the first automatic computing machine."
+		"qst":"First digital/ electronic computer Invented ?",
+		"ans":"Mark–1 By Dr. Howard H Aeiken in (1930)"
 	},
 	{
 		"sNo":"4",
 		"categoryId":"10",
-		"qst":"First programmable computer",
-		"ans":"The Z1 was created by German Konrad Zuse in his parents' living room between 1936 and 1938. It is considered to be the first electro-mechanical binary programmable computer, and the first really functional modern computer."
+		"qst":"First Completed  Electronic Computer Invented ?",
+		"ans":"ENIAC-1. (1946)"
 	},
 	{
 		"sNo":"5",
 		"categoryId":"10",
-		"qst":"First concepts of what we consider a modern computer ?",
-		"ans":"The Turing machine was first proposed by Alan Turing in 1936 and became the foundation for theories about computing and computers."
+		"qst":"Banizic Base first electronic computer ?",
+		"ans":"UNIVAC-1. (1951)"
 	},
 	{
 		"sNo":"6",
 		"categoryId":"10",
-		"qst":"When was the first computer invented ? ",
-		"ans":"The first mechanical computer, created by Charles Babbage in 1822."
+		"qst":"Father of modern computer ?",
+		"ans":"John Von Neumann."
 	},
 	{
 		"sNo":"7",
 		"categoryId":"10",
-		"qst":"When was the word 'computer' was first used ?",
-		"ans":"The word 'computer' was first recorded as being used in 1613 and originally was used to describe a human who performed calculations or computations."
+		"qst":" Age of Electronic ?",
+		"ans":"Start with Transistor.(1948)."
 	},
 	{
 		"sNo":"8",
 		"categoryId":"10",
-		"qst":"First mechanical computer or automatic computing engine concept ?",
-		"ans":"In 1822, Charles Babbage conceptualized and began developing the Difference Engine, considered to be the first automatic computing machine."
+		"qst":"What is  I.C ?",
+		"ans":"IC=Integrated Circuit, By Jack Kilby. (1958)"
 	},
 	{
 		"sNo":"9",
 		"categoryId":"10",
-		"qst":"First programmable computer",
-		"ans":"The Z1 was created by German Konrad Zuse in his parents' living room between 1936 and 1938. It is considered to be the first electro-mechanical binary programmable computer, and the first really functional modern computer."
+		"qst":"First Microprocessor ?",
+		"ans":"Intel-4004. [ 1971 ]"
 	},
 	{
 		"sNo":"10",
 		"categoryId":"10",
-		"qst":"First concepts of what we consider a modern computer ?",
-		"ans":"The Turing machine was first proposed by Alan Turing in 1936 and became the foundation for theories about computing and computers."
+		"qst":"Father of Microcomputer ?",
+		"ans":"H Edward Roberts, Intel-8080. [ 1975 ]"
 	},
 	{
 		"sNo":"11",
 		"categoryId":"10",
-		"qst":"When was the first computer invented ? ",
-		"ans":"The first mechanical computer, created by Charles Babbage in 1822."
+		"qst":"Father of Microsoft ? ",
+		"ans":"Bill Gates. [ 1977 ]"
 	},
 	{
 		"sNo":"12",
+		"categoryId":"10",
+		"qst":"First program of Microsoft ?",
+		"ans":"MS DOS. With in 1981 [for I.B.M = PC]"
+	},
+	{
+		"sNo":"13",
+		"categoryId":"10",
+		"qst":"World No-1 Computer Mesuam?",
+		"ans":"U.S.A [ Atlanta ]."
+	},
+	{
+		"sNo":"14",
+		"categoryId":"10",
+		"qst":"Bangladesh first computer ?",
+		"ans":"IBM-1620 Mainframe Computer."
+	},
+	{
+		"sNo":"15",
+		"categoryId":"10",
+		"qst":"First C.S.E  start where ?",
+		"ans":"[ 1984 ] Bangladesh Prokowsol University."
+	},
+	{
+		"sNo":"16",
+		"categoryId":"10",
+		"qst":"Bangladesh computer society ?",
+		"ans":"1989"
+	},
+	{
+		"sNo":"17",
+		"categoryId":"10",
+		"qst":"Bangladesh computer council ? ",
+		"ans":"1990"
+	},
+	{
+		"sNo":"18",
+		"categoryId":"10",
+		"qst":"Banigic vabe sofol first Supercomputer ?",
+		"ans":"CDC-6600"
+	},
+	{
+		"sNo":"19",
+		"categoryId":"10",
+		"qst":"Transistor Base first computer ?",
+		"ans":"TX-O."
+	},
+	{
+		"sNo":"20",
+		"categoryId":"10",
+		"qst":"Transistor base first minicomputer ?",
+		"ans":"PDP-8"
+	},
+	{
+		"sNo":"21",
+		"categoryId":"10",
+		"qst":"IC base first Digital computer?",
+		"ans":"IBM System 360."
+	},
+	{
+		"sNo":"22",
+		"categoryId":"10",
+		"qst":"Microprocessor Base first Computer ?",
+		"ans":"Altair – 880"
+	},
+	{
+		"sNo":"23",
+		"categoryId":"10",
+		"qst":"When was the first computer? ",
+		"ans":"The first mechanical computer, created by Charles Babbage in 1822."
+	},
+	{
+		"sNo":"24",
 		"categoryId":"10",
 		"qst":"When was the word 'computer' was first used ?",
 		"ans":"The word 'computer' was first recorded as being used in 1613 and originally was used to describe a human who performed calculations or computations."
 	},
 	{
-		"sNo":"13",
+		"sNo":"25",
 		"categoryId":"10",
 		"qst":"First mechanical computer or automatic computing engine concept ?",
 		"ans":"In 1822, Charles Babbage conceptualized and began developing the Difference Engine, considered to be the first automatic computing machine."
 	},
 	{
-		"sNo":"14",
+		"sNo":"26",
 		"categoryId":"10",
 		"qst":"First programmable computer",
 		"ans":"The Z1 was created by German Konrad Zuse in his parents' living room between 1936 and 1938. It is considered to be the first electro-mechanical binary programmable computer, and the first really functional modern computer."
 	},
 	{
-		"sNo":"15",
+		"sNo":"27",
 		"categoryId":"10",
 		"qst":"First concepts of what we consider a modern computer ?",
 		"ans":"The Turing machine was first proposed by Alan Turing in 1936 and became the foundation for theories about computing and computers."
+	},
+	{
+		"sNo":"28",
+		"categoryId":"10",
+		"qst":"About first Generation Computer.",
+		"ans":" Age in: 1946 – 1959. \nCharacteristics: Vacuum tube, Prance card. \nHigh sound and Temper. \nProgramming use Signal. Exm: MARK,ENIAC and UNIVAC-1."
+	},
+	{
+		"sNo":"29",
+		"categoryId":"10",
+		"qst":"About second generation Computer.",
+		"ans":"Age in: 1959 – 1965.\nCharacteristic: Transistor, Magnetic core Memory.\nProgramming language: FORTRAN, COBOL.\nLess temper and speed. \nExm: IBM-1620, IBM-1600."
+	},
+	{
+		"sNo":"30",
+		"categoryId":"10",
+		"qst":"About Third generation computer ?",
+		"ans":" Age in: 1965 – 1971.\nCharacteristic: IC used, video Dispy, Semiconductor Memory, High level Programing Language.\nExam: IBM-360,PDP-8."
+	},
+	{
+		"sNo":"31",
+		"categoryId":"10",
+		"qst":"About fourth generation computer.",
+		"ans":"Age in: 1971- Running. \nCharacteristics: Microprocessor system using in Microcomputer,  VLSI, Custom and Object-oriented software used and Multi using system I/O.\nExam: IBM-PC, IBM- 3033, HP-3000."
+	},
+	{
+		"sNo":"32",
+		"categoryId":"10",
+		"qst":"About fifth generation computer (Next Generation)?",
+		"ans":"Characteristics: High speed multi Processor system, Natural Programming Language, Voice dictator and World all language used and I/O capacity Unlimited.\nArtificial Intelligent and Robotics technology."
 	}
 
 ]
