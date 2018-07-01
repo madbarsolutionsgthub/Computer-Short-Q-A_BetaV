@@ -29,11 +29,53 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1.6"
                     android:gravity="center"
-                    android:text="Retain and Viba Short Question and Answer \nAbout Computer for IT Job"
+                    android:text="Written and Viva Exam Complete Solution \nAbout Computer General knowledge"
                     android:textColor="#ffff"
                     android:textSize="14dp"
+                    android:fontFamily="cursive"
                     android:textStyle="bold"
                     />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <madbarsoft.com.computershortquestionforitjob.utility.TextView_Lato
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <madbarsoft.com.computershortquestionforitjob.utility.Textview_lato_thin
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="Category"
+                    android:textColor="#fff"
+                    android:textSize="14dp" />
+
+                <madbarsoft.com.computershortquestionforitjob.utility.TextView_Lato
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="500+"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <madbarsoft.com.computershortquestionforitjob.utility.Textview_lato_thin
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="Question"
+                    android:textColor="#fff"
+                    android:textSize="14dp" />
+
             </LinearLayout>
         </LinearLayout>
     </FrameLayout>
@@ -47,7 +89,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:listSelector="#04b4a8"
-        android:dividerHeight="4dp"
+        android:dividerHeight="1dp"
         android:divider="#33ed0f0f">
 
     </GridView>
