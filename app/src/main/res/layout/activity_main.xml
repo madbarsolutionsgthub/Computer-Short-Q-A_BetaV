@@ -18,24 +18,32 @@
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp"
-                android:layout_gravity="center">
-                <madbarsoft.com.computershortquestionforitjob.utility.Textview_lato_thin
-                    android:layout_width="0dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <madbarsoft.com.computershortquestionforitjob.utility.TextView_Lato
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1.6"
                     android:gravity="center"
-                    android:text="Written and Viva Exam Complete Solution \nAbout Computer General knowledge"
+                    android:text="Complete Solution for Written and Viva Exam"
                     android:textColor="#ffff"
                     android:textSize="14dp"
-                    android:fontFamily="cursive"
-                    android:textStyle="bold"
-                    />
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold" />
+                <madbarsoft.com.computershortquestionforitjob.utility.Textview_lato_thin
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="(Computer General Knowledge)"
+                    android:textColor="@color/colorGray"
+                    android:textSize="14dp" />
             </LinearLayout>
+
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -47,8 +55,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="20"
-                    android:textColor="#fff"
-                    android:textSize="20dp"
+                    android:textColor="@color/colorGray"
+                    android:textSize="14dp"
                     android:textStyle="bold" />
 
                 <madbarsoft.com.computershortquestionforitjob.utility.Textview_lato_thin
@@ -56,16 +64,16 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="3dp"
                     android:text="Category"
-                    android:textColor="#fff"
-                    android:textSize="14dp" />
+                    android:textColor="@color/colorGray"
+                    android:textSize="12dp" />
 
                 <madbarsoft.com.computershortquestionforitjob.utility.TextView_Lato
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="500+"
-                    android:textColor="#fff"
-                    android:textSize="20dp"
+                    android:text="500 +"
+                    android:textColor="@color/colorGray"
+                    android:textSize="14dp"
                     android:textStyle="bold" />
 
                 <madbarsoft.com.computershortquestionforitjob.utility.Textview_lato_thin
@@ -73,8 +81,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="3dp"
                     android:text="Question"
-                    android:textColor="#fff"
-                    android:textSize="14dp" />
+                    android:textColor="@color/colorGray"
+                    android:textSize="12dp" />
 
             </LinearLayout>
         </LinearLayout>
@@ -84,7 +92,7 @@
         android:id="@+id/homePageWithGridViewId"
         android:layout_below="@+id/homePageFrameLayoutId"
         android:verticalSpacing="0dp"
-        android:horizontalSpacing="0dp"
+        android:horizontalSpacing="14dp"
         android:numColumns="2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
