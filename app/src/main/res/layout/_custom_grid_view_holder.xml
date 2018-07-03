@@ -40,7 +40,7 @@
                         android:layout_height="wrap_content"
                         android:text="Amira Wahas"
                         android:textColor="@color/colorGray"
-                        android:textSize="14dp"
+                        android:textSize="16dp"
                         android:textStyle="bold" />
 
                     <madbarsoft.com.computershortquestionforitjob.utility.Textview_lato_thin
@@ -50,7 +50,7 @@
                         android:layout_marginTop="2dp"
                         android:text="Number Of Question: 50"
                         android:textColor="@color/colorLightGray"
-                        android:textSize="12dp" />
+                        android:textSize="14dp" />
 
                 </LinearLayout>
 

@@ -39,7 +39,7 @@
                         android:layout_marginLeft="10dp"
                         android:text="Meeting with Adrian"
                         android:textColor="@color/colorGray"
-                        android:textSize="14dp"
+                        android:textSize="16dp"
                         android:textStyle="bold" />
             </LinearLayout>
 
