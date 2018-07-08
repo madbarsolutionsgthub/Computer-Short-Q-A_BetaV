@@ -2,6 +2,7 @@ package madbarsoft.com.computershortquestionforitjob.detailshowquestionandanswer
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
@@ -89,27 +90,36 @@ public class DetailsShowFragment extends Fragment {
         btnList = (Button)vu.findViewById(R.id.btnListId);
         btnHome = (Button)vu.findViewById(R.id.btnHomeId);
 
+        if((questionAndAnsList.size()-1) == currentDataPosition) {
+            btnNext.setEnabled(false);
+            btnNext.setBackgroundColor(Color.GRAY);
+        }
+        if(currentDataPosition==0){
+            btnBack.setEnabled(false);
+            btnBack.setBackgroundColor(Color.GRAY);
+        }
+
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Toast.makeText(getContext(), "Msg:(Next Btn) Current Pos:"+currentSno, Toast.LENGTH_SHORT).show();
-                if((questionAndAnsList.size()-1) != currentDataPosition) {
+                if((questionAndAnsList.size()-1) > currentDataPosition) {
                     nextAndBackDetailsListenerInteF.nextData(questionAndAnsList.get((currentDataPosition + 1)), (currentDataPosition + 1));
                     return;
                 }
-                nextAndBackDetailsListenerInteF.nextData(questionAndAnsList.get((currentDataPosition)), (currentDataPosition));
+                btnNext.setEnabled(false);
+                btnNext.setBackgroundColor(Color.GRAY);
             }
         });
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //  Toast.makeText(getContext(), "Msg: (Btn Back )Current Pos:"+currentSno, Toast.LENGTH_SHORT).show();
                 if(currentDataPosition!=0){
                     nextAndBackDetailsListenerInteF.backData(questionAndAnsList.get(currentDataPosition-1), currentDataPosition-1);
                     return;
                 }
-                nextAndBackDetailsListenerInteF.backData(questionAndAnsList.get(currentDataPosition), currentDataPosition);
+                btnBack.setEnabled(false);
+                btnBack.setBackgroundColor(Color.GRAY);
             }
         });
 
